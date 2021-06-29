@@ -29,10 +29,10 @@ jobs:
     
 
   - name: install dependencies
-    run: npm install
+    run: yarn install
   
   -name: Build page
-    run: npm run build
+    run: yarn build
     env:
       NODE_ENV: production
 
